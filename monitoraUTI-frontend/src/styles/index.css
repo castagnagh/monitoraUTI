@@ -1,0 +1,89 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+
+/* small helpers */
+.pulse-red { animation: pulse 1.5s infinite; }
+
+:root {
+	--bg-900: #0b1220;
+	--bg-800: #0f1724;
+	--page-fg: #e2e8f0;
+	--card-bg: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+	--card-border: rgba(255,255,255,0.08);
+	--content-bg: linear-gradient(180deg,var(--bg-900),var(--bg-800));
+}
+
+body {
+	background: var(--content-bg);
+	color: var(--page-fg);
+	transition: background 180ms ease, color 180ms ease;
+}
+
+html[data-theme='light'] {
+	--bg-900: #f8fafc;
+	--bg-800: #e2e8f0;
+	--page-fg: #0f172a;
+	--card-bg: linear-gradient(180deg, rgba(226,232,240,0.96), rgba(241,245,249,0.92));
+	--card-border: rgba(15,23,42,0.12);
+	--content-bg: linear-gradient(180deg, #f8fafc, #e2e8f0);
+}
+
+html[data-theme='light'] body {
+	background: var(--content-bg);
+	color: var(--page-fg);
+}
+
+html[data-theme='light'] .glass-card {
+	background: var(--card-bg) !important;
+	border-color: var(--card-border) !important;
+	box-shadow: 0 12px 30px rgba(15,23,42,0.06) !important;
+}
+
+html[data-theme='light'] .text-slate-100,
+html[data-theme='light'] .text-slate-200 {
+	color: #0f172a !important;
+}
+
+html[data-theme='light'] .text-slate-300 {
+	color: #334155 !important;
+}
+
+html[data-theme='light'] .text-slate-400,
+html[data-theme='light'] .text-slate-500 {
+	color: #64748b !important;
+}
+
+html[data-theme='light'] .bg-black\/20 {
+	background-color: rgba(148, 163, 184, 0.12) !important;
+}
+
+html[data-theme='light'] .bg-white\/5 {
+	background-color: rgba(255,255,255,0.82) !important;
+}
+
+html[data-theme='light'] .border-white\/10 {
+	border-color: rgba(15, 23, 42, 0.08) !important;
+}
+
+.glass-card {
+	background: var(--card-bg);
+	border: 1px solid var(--card-border);
+	backdrop-filter: blur(6px);
+}
+
+@keyframes pulse {
+	0% { box-shadow: 0 0 0 0 rgba(239,68,68,0.6); }
+	70% { box-shadow: 0 0 0 10px rgba(239,68,68,0); }
+	100% { box-shadow: 0 0 0 0 rgba(239,68,68,0); }
+}
+
+.badge {
+	padding: 5px 9px;
+	border-radius: 9999px;
+	font-weight: 700;
+	font-size: 13px;
+	line-height: 1;
+}
