@@ -127,4 +127,3 @@ C:\Users\Gabriel Castagna\Desktop\monitoraUTI\monitoraUTI-backend\MonitoraUTI.Ap
 C:\Users\Gabriel Castagna\Desktop\monitoraUTI\monitoraUTI-backend\MonitoraUTI.Api\bin\Debug\net8.0\MonitoraUTI.Api.pdb
 C:\Users\Gabriel Castagna\Desktop\monitoraUTI\monitoraUTI-backend\MonitoraUTI.Api\obj\Debug\net8.0\MonitoraUTI.Api.genruntimeconfig.cache
 C:\Users\Gabriel Castagna\Desktop\monitoraUTI\monitoraUTI-backend\MonitoraUTI.Api\obj\Debug\net8.0\ref\MonitoraUTI.Api.dll
-C:\Users\Gabriel Castagna\Desktop\monitoraUTI\monitoraUTI-backend\MonitoraUTI.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bGyHvUPZdUo=",
+  "dgSpecHash": "J3ZR0ak8N7k=",
   "success": true,
   "projectFilePath": "C:\\Users\\Gabriel Castagna\\Desktop\\monitoraUTI\\monitoraUTI-backend\\MonitoraUTI.Api\\MonitoraUTI.Api.csproj",
   "expectedPackageFiles": [
@@ -56,7 +56,8 @@
     "C:\\Users\\Gabriel Castagna\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel Castagna\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
     "C:\\Users\\Gabriel Castagna\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\Gabriel Castagna\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512"
+    "C:\\Users\\Gabriel Castagna\\.nuget\\packages\\system.threading.channels\\6.0.0\\system.threading.channels.6.0.0.nupkg.sha512",
+    "C:\\Users\\Gabriel Castagna\\.nuget\\packages\\microsoft.netcore.app.host.win-x86\\8.0.24\\microsoft.netcore.app.host.win-x86.8.0.24.nupkg.sha512"
   ],
   "logs": []
 }

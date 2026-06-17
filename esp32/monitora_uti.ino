@@ -2,15 +2,15 @@
 #include <HTTPClient.h>
 
 // ====== CONFIGURAÇÃO ======
-const char* WIFI_SSID = "SEU_WIFI";
-const char* WIFI_PASSWORD = "SUA_SENHA";
+const char* WIFI_SSID = "Obi-WAN";
+const char* WIFI_PASSWORD = "****";
 
 // Use o IP da máquina que está rodando a API.
 // Exemplo local: http://192.168.0.10:5000
-const char* API_URL = "http://SEU_IP:5000/api/alerts";
+const char* API_URL = "http://***/api/alerts";
 
 // Cada ESP32 deve representar uma cama específica.
-const int BED_ID = 1;
+const int BED_ID = 8;
 
 // Pino analógico do sensor capacitivo/analógico.
 const int SENSOR_PIN = 34;
@@ -21,7 +21,7 @@ const int DRY_VALUE = 3200;
 const int WET_VALUE = 1400;
 
 // Limite mínimo de diferença entre leituras para evitar spam.
-const int MIN_CHANGE_TO_SEND = 3;
+const int MIN_CHANGE_TO_SEND = 0;
 
 int lastHumiditySent = -1;
 unsigned long lastSendMillis = 0;

@@ -5,6 +5,11 @@ using MonitoraUTI.Api.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
+builder.WebHost.UseUrls(
+    "http://0.0.0.0:58943",
+    "https://localhost:58942"
+);
+
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
